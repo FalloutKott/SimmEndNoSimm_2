@@ -20,13 +20,8 @@ namespace SimmEndNoSimm_2
 
         public void CalculationSymmetricalLoad() // Расчёты СИММ // P = 3*Uф*I* cos(φ) = 1,73Uл*I* cos(φ)
         {
-            //ResultLable.Text = "Расчёт симметричной нагрузки";
             double IL1 = Convert.ToDouble(TBL1.Text);
-            //double IL2 = Convert.ToDouble(TBL2.Text);
-            //double IL3 = Convert.ToDouble(TBL3.Text);
             double U1 = Convert.ToDouble(TBU1.Text);
-            //double U2 = Convert.ToDouble(TBU2.Text);
-            //double U3 = Convert.ToDouble(TBU3.Text);
             double result = 1.73 * U1 * IL1;                     // формула 
             ResultLable.Text = $"{result / 1000} kWt";
         }
@@ -70,15 +65,15 @@ namespace SimmEndNoSimm_2
             }
             else
             {
-                TBL1.Text = $"";
-                TBL2.Text = $"";
-                TBL3.Text = $"";
+                TBL1.Clear();
+                TBL2.Clear();
+                TBL3.Clear();
                 TBL2.Enabled = true;
                 TBL3.Enabled = true;
 
-                TBU1.Text = $"";
-                TBU2.Text = $"";
-                TBU3.Text = $"";
+                TBU1.Clear();
+                TBU2.Clear();
+                TBU3.Clear();
                 TBU2.Enabled = true;
                 TBU3.Enabled = true;
                 ChoiceLoad.Text = "Расчёт НЕсимметричной нагрузки";

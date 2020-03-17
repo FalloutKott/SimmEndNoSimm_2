@@ -117,18 +117,20 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(57, 71);
+            this.label1.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label1.Location = new System.Drawing.Point(45, 71);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(26, 13);
+            this.label1.Size = new System.Drawing.Size(43, 18);
             this.label1.TabIndex = 9;
             this.label1.Text = "I (A)";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(242, 71);
+            this.label2.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label2.Location = new System.Drawing.Point(230, 71);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(30, 13);
+            this.label2.Size = new System.Drawing.Size(46, 18);
             this.label2.TabIndex = 10;
             this.label2.Text = "U (v)";
             // 
